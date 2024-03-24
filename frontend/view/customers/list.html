@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customers</title>
+</head>
+<body>
+
+
+Total numbers = {$data.customers_count} <br /><br />
+{section xyz $data.customers_list}
+{$data.customers_list[xyz].id}  --- {$data.customers_list[xyz].name}<br>
+{/section}
+</body>
+</html>

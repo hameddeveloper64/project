@@ -1,0 +1,25 @@
+{
+    "name": "magnet/ecommerce",
+    "description": "ecommerce website cms",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hamed",
+            "email": "hamed@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "framework/storage/vendor/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magnet\\App\\": "framework/",
+            "Magnet\\Admin\\": "admin/",
+            "Magnet\\Catalog\\": "frontend/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^4.4",
+        "chillerlan/php-qrcode": "^5.0"
+    }
+}

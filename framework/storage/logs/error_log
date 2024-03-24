@@ -1,0 +1,3 @@
+2024-03-20 18:17:47 - PHP Warning:  Undefined variable $registry in D:\xampp\htdocs\MVC\4\system\bootstarp.php on line 74
+2024-03-20 23:49:43 - PHP Notice:  Indirect modification of overloaded property chillerlan\QRCode\QROptions::$moduleValues has no effect in D:\xampp\htdocs\MVC\4\framework\library\qr.php on line 25
+2024-03-20 23:49:43 - PHP Notice:  Indirect modification of overloaded property chillerlan\QRCode\QROptions::$moduleValues has no effect in D:\xampp\htdocs\MVC\4\framework\library\qr.php on line 29
